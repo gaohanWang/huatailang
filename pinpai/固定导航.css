@@ -1,0 +1,86 @@
+/*这里是左边的固定导航*/
+.fixedLeft{
+  position: fixed;
+  left: 0;
+  top:50%;
+  margin-top: -207px;
+  width: 70px;
+  display: none;
+}
+.fixedLeft a{
+  display: block;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+
+  margin-left: -10px;
+}
+.fixedLeft a:first-child{
+  height: 90px;
+  padding-top: 20px;
+  background-color:#dc504f ;
+}
+.fixedLeft a:nth-child(2){
+  height: 120px;
+  padding-top: 10px;
+  background-color:#282828;
+}
+.fixedLeft a:nth-child(3){
+  height: 40px;
+  padding-top: 10px;
+  background-color:#282828;
+}
+.fixedLeft a:nth-child(4){
+  background-color:#282828;
+  height: 40px;
+  padding-top: 10px;
+}
+.fixedLeft a:nth-child(5){
+  padding-top: 20px;
+  height: 50px;
+  background-color: #282828;
+}
+.fixedLeft img{
+  position: absolute;
+  right: 10px;
+}
+.fixedLeft .qj_3{
+  position: absolute;
+  right: 2px;
+}
+.fixedLeft .qj_4{
+  position: absolute;
+  right: 0px;
+}
+.fixedLeft .qj_5{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+/*这里是右边的QQ客服导航*/
+.qqCs{
+  position: fixed;
+  right: 0;
+  top:50%;
+  margin-top: -150px;
+}
+.qqCs .closeQQ{
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+}
+.qqCs ul{
+  background-color: #abd5d5;
+  height:200px;
+  cursor: pointer;
+}
+.qqCs li{
+  border:1px solid black;
+  padding:0 5px 3px 3px;
+  margin: 0 5px 10px 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+.qqCs li img{
+  margin-right: 5px;
+}

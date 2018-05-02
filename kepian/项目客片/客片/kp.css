@@ -1,0 +1,34 @@
+.head{
+  width: 100%;
+  height: 130px;
+  background-color: red;
+}
+.head-box{
+  width: 1120px;
+  height: 101px;
+  background-color: #00a6f1;
+}
+.logo{
+  width: 178px;
+  height: 58px;
+//  background-color: yellow;
+  background:url("images/logo.png");
+}
+.box-lf{
+  width: 310px;
+  height: 65px;
+  background-color: hotpink;
+}
+.box-rt{
+  width: 322px;
+  height: 71px;
+  background-color: greenyellow;
+}
+.nav{
+  width: 100%;
+  height: 42px;
+  /*background-color: #000;*/
+  float: none;
+  min-width: 1000px;
+}
+

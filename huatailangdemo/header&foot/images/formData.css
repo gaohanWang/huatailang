@@ -1,0 +1,97 @@
+* {    margin: 0;   padding: 0; }
+html,body { overflow-x: hidden;height:100%; font-size: 12px;}
+img{border:0}
+ul{list-style:none}
+a,a:hover{text-decoration:none;}
+.fl{float:left}
+.fr{float:right}
+.clear{clear:both}
+
+.form-item{line-height: 35px;margin-top:6px;}
+.form-item-error{}
+.form-item-over{border-color:#393939;background: #ebf3fd}
+.form-label{width: 150px;display: inline;float:left;text-align: right;font-size: 12px;
+    font-family: simsun;color:#333;}
+.form-element{margin-left: 155px;position: relative;}
+.item-required{margin-left:10px;margin-right:10px;color:red;font-weight: bold}
+.form-text{height:20px;line-height: 20px;text-indent: 4px;width: 220px;border:1px solid #CCC}
+.form-text:focus,.form-textarea:focus{border: 1px solid #FFCC66}
+.form-textarea{width:65%;height:80px;border:1px solid #CCC;padding: 4px;}
+.item-option{
+    float:left;height:25px;margin: 3px 10px 3px 0;padding-left:10px;
+}
+.item-option label{margin-left: 5px;}
+
+.form-element .form-text-error{border: 1px solid red}
+.form-check{vertical-align: middle;margin-right: 10px}
+.form-tip{display: block;font-size: 12px;color:#999;    font-family: "Arial Black",Gadget,sans-serif;
+    line-height: 18px;margin-top: -4px}
+
+.form-error{height: 34px;line-height:34px;position: absolute;left:235px;top:2px;color: #666;
+    background: url(../images/bg_err_left.gif) no-repeat left center;display: none}
+.form-error-right{background: url(../images/bg_err_right.gif) no-repeat right center;margin-left: 31px;}
+.form-error-msg{background: url(../images/bg_err_msg.gif) repeat-x center ;margin-right: 8px;}
+.validate-error .form-error{display:block;}
+.btn-submit{display: block;width: 104px;height: 32px;color:#FFF;font-weight: bold;text-align: center;line-height: 32px;
+    background: url(../images/button_1.jpg) 0px 0px no-repeat;font-size: 13px}
+
+.form-error{height: 34px;line-height:34px;position: absolute;left:235px;top:2px;color: #666;
+    background: url(../images/bg_err_left.gif) no-repeat left center;display: none}
+.form-error-right{background: url(../images/bg_err_right.gif) no-repeat right center;margin-left: 31px;}
+.form-error-msg{background: url(../images/bg_err_msg.gif) repeat-x center ;margin-right: 8px;}
+.mobile .wrapper,.mobile #formRegion{
+    width: auto !important;height: auto !important;
+}
+.mobile .form-item{
+    width: auto ;margin:0;
+}
+.mobile #submitItem .form-element{
+    margin-left: 0;
+}
+.mobile #submitItem .btn-submit{
+    margin-left: auto;margin-right: auto;
+}
+.mobile .form-element{
+    margin:0;
+}
+.mobile .form-text{
+    margin:0;
+}
+@media (max-width: 240px) {
+    .mobile .form-label{
+        display: block;float: none;
+        text-align: left;margin-left: 10px;
+    }
+    .mobile .form-element{
+        margin-left: 10px;
+    }
+    .mobile .form-text,.mobile .form-textarea{
+        width: 180px;
+    }
+}
+@media (min-width: 241px) and (max-width: 540px) {
+    .mobile .form-label{
+        width: 25%;
+    }
+    .mobile .form-element{
+        margin-left: 25%;
+    }
+    .mobile .form-text,.mobile .form-textarea{
+        width: 80%;
+    }
+}
+@media (min-width: 541px) {
+    .mobile .form-item{
+        width: 540px;
+        margin:5px auto;
+    }
+    .mobile .form-label{
+        width: 20%;
+    }
+    .mobile .form-element{
+        margin-left: 20%;
+    }
+    .mobile .form-text,.mobile .form-textarea{
+        width: 80%;
+    }
+}

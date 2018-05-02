@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>太郎花子官网</title>
+  <link rel="icon" href="title.ico" type="images/x-icon">
+  <link rel="stylesheet" href="bese2.css">
+  <link rel="stylesheet" href="折叠.css">
+  <script src='jquery-1.12.4.min.js'></script>
+  <link rel="stylesheet" href="固定导航.css">
+  <script src= "固定导航.js"></script>
+  <script src="折叠.js"></script>
+</head>
+<body>
+<!-- header开始 -->
+<header>
+  <div class='head w'>
+    <div class='logo fl'></div>
+    <div class='f-name fl clearfix'>
+      <ul>
+        <li class='space'></li>
+        <li>
+          <i></i>
+          <a href="javascript:void 0;">
+            无锡店
+          </a>
+        </li>
+        <li><i></i><a href="javascript:void 0;">苏州店</a></li>
+        <li><i></i><a href="javascript:void 0;">常州店</a></li>
+        <li><i></i><a href="javascript:void 0;">昆山店</a></li>
+        <li><i></i><a href="javascript:void 0;">三亚店</a></li>
+        <li><i></i><a href="javascript:void 0;">泰州店</a></li>
+      </ul>
+    </div>
+    <div class='animate fr'>
+      <div class='shang'></div>
+      <div class='zhong'></div>
+      <div class='xia'></div>
+    </div>
+  </div>
+</header>
+<nav>
+  <div class="xiabiao">
+    <a href="index11.html">品牌介绍</a>
+    <a href="index22.html">摄影团队</a>
+  </div>
+  <div class='nav w clearfix'>
+    <ul>
+      <li><a href="../首页/太郎花子项目-首页效果/main.html">首页 <span>HOME</span></a></li>
+      <li id="pp">
+        <a href="javascript:void 0;">品牌 <span>BRAND</span></a>
+      
+      </li>
+      <li><a href="javascript:void 0;">特惠 <span>NEWS</span></a></li>
+      <li><a href="../样片/太郎花子之样片/太郎花子之样片.html">样片 <span>SHOWCASE</span></a></li>
+      <li><a href="../客片/项目客片/客片/客片LovecaseEcase.html">客片 <span>LOVECASE</span></a></li>
+      <li><a href="javascript:void 0;">微电影 <span>FILM</span></a></li>
+      <li><a href="javascript:void 0;">投诉建议 <span>COMPLAINT</span></a></li>
+    </ul>
+  </div>
+</nav>
+<!-- 下标的显示和隐藏js -->
+<script>
+  $(function () {
+    //图片回到顶部
+    $('#img').click(function () {
+      
+      $('html,body').stop().animate({scrollTop: 0}, 300);
+    })
+    
+    //当鼠标hover的时候显示 和隐藏
+    $('#pp').on('mouseenter', function () {
+      $('.xiabiao').show().css('border-top', '2px solid #ddf520');
+      
+    })
+    $('.xiabiao').on('mouseleave', function () {
+      $('.xiabiao').hide();
+    })
+  })
+</script>
+
+<!-- header结束 -->
+
+
+<!-- team开始 -->
+<div class="team-nav"></div>
+
+<ul class="team-tab cleacfix w" id='team-tab'>
+  <li class="tab-item ">研发总监级</li>
+  <li class="tab-item ">样片总监级</li>
+  <li class="tab-item active">集团总监级</li>
+  <li class="tab-item ">首席总监级</li>
+  <li class="tab-item ">资深总监级</li>
+</ul>
+<div class="team">
+  <div id="gallery">
+    <img src="images-index2/1.jpg" alt="研发总监"/>
+    <img src="images-index2/2.jpg" alt="样片总监"/>
+    <img src="images-index2/3.jpg" alt="集团总监"/>
+    <img src="images-index2/4.jpg" alt="首席总监"/>
+    <img src="images-index2/5.jpg" alt="资深总监"/>
+  </div>
+  <ul>
+    <li class="onclick"></li>
+  </ul>
+</div>
+
+
+<div class="team-photos">
+  <div class="team-photo rad w" style="display: none;">
+    <ul class="clearfix">
+      
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-1612201114490-L.jpg">
+        <p>阿杰sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-1612201131160-L.jpg">
+        <p>阿松sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/149-1612212245070-L.jpg">
+        <p>麟sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-161220122G80-L.jpg">
+        <p>王sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-1612201210280-L.jpg">
+        <p>谷sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-1612201201490-L.jpg">
+        <p>明sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-1612201151360-L.jpg">
+        <p>胜利sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-161220123Z30-L.jpg">
+        <p>许sir</p></a></li>
+    </ul>
+  
+  </div>
+  <div class="team-photo 156 w" style="display: none;">
+    <ul class="clearfix">
+      
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-161220113F60-L.jpg">
+        <p>刘sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-161220123H80-L.jpg">
+        <p>马sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-1612201223320-L.jpg">
+        <p>文sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-1612201156180-L.jpg">
+        <p>小志sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-161220115P50-L.jpg">
+        <p>玉龙sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-1612201231240-L.jpg">
+        <p>赵sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/149-161221222K90-L.jpg">
+        <p>安sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/149-1612212231300-L.jpg">
+        <p>祥sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/149-1612212241280-L.jpg">
+        <p>亚sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/149-1612212243230-L.jpg">
+        <p>吴sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/149-1612212244480-L.jpg">
+        <p>谢sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/149-1612212246370-L.jpg">
+        <p>徐sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/149-1612212305380-L.jpg">
+        <p>旭sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/149-1612212311030-L.jpg">
+        <p>伟sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img
+          src="images-index2/1422-1F20G31J40-L.jpg">
+        <p>张sir</p></a></li>
+    </ul>
+  
+  </div>
+  <div class="team-photo 157 w" style="display: block;">
+    <ul class="clearfix">
+      
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212159260-L.jpg">
+        <p>艾sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612201200070-L.jpg">
+        <p>蔡sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212213290-L.jpg">
+        <p>陈sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212214020-L.jpg">
+        <p>名sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212214350-L.jpg">
+        <p>邓sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-161221221624236.jpg">
+        <p>义sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612201135080-L.jpg">
+        <p>大强sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212215530-L.jpg">
+        <p>方sir</p></a></li>
+      
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221235049611.jpg">
+        <p>金sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212219150-L.jpg">
+        <p>甲豪sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212220230-L.jpg">
+        <p>贾sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212221340-L.jpg">
+        <p>李sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612201229470-L.jpg">
+        <p>雷sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212222320-L.jpg">
+        <p>辉sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212225040-L.jpg">
+        <p>奎sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212225340-L.jpg">
+        <p>坤sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212225550-L.jpg">
+        <p>想sir</p></a></li>
+      
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-161221222Z70-L.jpg">
+        <p>林sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212229340-L.jpg">
+        <p>刘sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212230330-L.jpg">
+        <p>龙sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212230580-L.jpg">
+        <p>鹏sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212231550-L.jpg">
+        <p>富sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212232200-L.jpg">
+        <p>吕sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212232370-L.jpg">
+        <p>波sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212234070-L.jpg">
+        <p>马sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212235100-L.jpg">
+        <p>辉sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212235580-L.jpg">
+        <p>裴sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212236220-L.jpg">
+        <p>大宇sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-161221223A80-L.jpg">
+        <p>宋sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-161221223Q40-L.jpg">
+        <p>孙sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-161221223T70-L.jpg">
+        <p>王sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212240130-L.jpg">
+        <p>军sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212240560-L.jpg">
+        <p>林sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212242290-L.jpg">
+        <p>岩sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212242480-L.jpg">
+        <p>飞sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212244290-L.jpg">
+        <p>肖sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212249140-L.jpg">
+        <p>林sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212249440-L.jpg">
+        <p>闫sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212251180-L.jpg">
+        <p>杨sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-161221225P60-L.jpg">
+        <p>营sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-161221225T40-L.jpg">
+        <p>由sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212302030-L.jpg">
+        <p>张sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212303040-L.jpg">
+        <p>庆sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212304190-L.jpg">
+        <p>杭sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212304540-L.jpg">
+        <p>猛sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212306060-L.jpg">
+        <p>赵sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212310360-L.jpg">
+        <p>强sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212311420-L.jpg">
+        <p>郑sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212312490-L.jpg">
+        <p>马克sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212313070-L.jpg">
+        <p>周sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-1612212313450-L.jpg">
+        <p>垚sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/149-161221232350L2.jpg">
+        <p>子义sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1F20G241310-L.jpg">
+        <p>丰sir</p></a></li>
+    </ul>
+  
+  </div>
+  <div class="team-photo 158 w" style="display: none;">
+    <ul class="clearfix">
+      
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212255420-L.jpg">
+        <p>阿东sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212256360-L.jpg">
+        <p>阿木sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221225F70-L.jpg">
+        <p>艾sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221225J90-L.jpg">
+        <p>崔sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221225R00-L.jpg">
+        <p>戴sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221225S80-L.jpg">
+        <p>高sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212259200-L.jpg">
+        <p>剑sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212300040-L.jpg">
+        <p>高sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212300390-L.jpg">
+        <p>龚sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212301170-L.jpg">
+        <p>可乐sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212302100-L.jpg">
+        <p>李sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221230304454.jpg">
+        <p>要sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212303410-L.jpg">
+        <p>赞sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212304210-L.jpg">
+        <p>历sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212304470-L.jpg">
+        <p>廉sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212305130-L.jpg">
+        <p>梁sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212305400-L.jpg">
+        <p>凌sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221230Q30-L.jpg">
+        <p>洋sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221230S80-L.jpg">
+        <p>龙sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221230Z20-L.jpg">
+        <p>马sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212309550-L.jpg">
+        <p>宁sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212310570-L.jpg">
+        <p>庞sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212311230-L.jpg">
+        <p>秦sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212311580-L.jpg">
+        <p>孙sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212312370-L.jpg">
+        <p>宇sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212313020-L.jpg">
+        <p>田sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212313260-L.jpg">
+        <p>王sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212313530-L.jpg">
+        <p>强sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212314180-L.jpg">
+        <p>星仔sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212314480-L.jpg">
+        <p>吴sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212315190-L.jpg">
+        <p>铭sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221231600X6.jpg">
+        <p>夕sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212316350-L.jpg">
+        <p>谢sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221231I90-L.jpg">
+        <p>许sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221231P50-L.jpg">
+        <p>雅倩sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221231S10-L.jpg">
+        <p>闫sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221231U90-L.jpg">
+        <p>杨sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212319230-L.jpg">
+        <p>雷sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212319500-L.jpg">
+        <p>坤sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212320170-L.jpg">
+        <p>友sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212320470-L.jpg">
+        <p>明sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212321380-L.jpg">
+        <p>姚sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212322090-L.jpg">
+        <p>于sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212323290-L.jpg">
+        <p>张sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212324140-L.jpg">
+        <p>江sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212324320-L.jpg">
+        <p>春sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212325310-L.jpg">
+        <p>振sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212325550-L.jpg">
+        <p>周sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612212326150-L.jpg">
+        <p>朱sir</p></a></li>
+    </ul>
+  
+  </div>
+  <div class="team-photo 159 w" style="display: none;">
+    <ul class="clearfix">
+      
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-16122123462WQ.jpg">
+        <p>艾sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221234H14K.jpg">
+        <p>曹sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-1612201133100-L.jpg">
+        <p>陈sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221234K45O.jpg">
+        <p>邓sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221234U9541.jpg">
+        <p>高sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221234919617.jpg">
+        <p>存sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221235025919.jpg">
+        <p>候sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221235110525.jpg">
+        <p>刘sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-161221235134H3.jpg">
+        <p>宾sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1422-16122123532U92.jpg">
+        <p>马sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612212345590-L.jpg">
+        <p>倪sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-161221234A90-L.jpg">
+        <p>裴sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-161221234J20-L.jpg">
+        <p>朋sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-161221234R90-L.jpg">
+        <p>屈sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-161221234Z90-L.jpg">
+        <p>沙sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612212350230-L.jpg">
+        <p>孙sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612212352260-L.jpg">
+        <p>杰sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612212353030-L.jpg">
+        <p>康sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612212353490-L.jpg">
+        <p>伍sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612212354280-L.jpg">
+        <p>康sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612212355070-L.jpg">
+        <p>岩sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-161221235G70-L.jpg">
+        <p>吴sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-161221235P30-L.jpg">
+        <p>徐sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612212359350-L.jpg">
+        <p>杨sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612220000070-L.jpg">
+        <p>雍sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612220001360-L.jpg">
+        <p>翟sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612220002490-L.jpg">
+        <p>伟sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612220005040-L.jpg">
+        <p>峰sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612220005280-L.jpg">
+        <p>军sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612220005550-L.jpg">
+        <p>海sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-1612220006260-L.jpg">
+        <p>赵sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-161222000A50-L.jpg">
+        <p>郑sir</p></a></li>
+      
+      <li><a href="javascript:;" target="_blank"><img src="images-index2/1423-161222000H30-L.jpg">
+        <p>朱sir</p></a></li>
+    </ul>
+  </div>
+</div>
+<script>
+  //tab兰切换
+  $(function () {
+    $('.tab-item').click(function () {
+      $(this).addClass('active').siblings().removeClass('active');
+      var index = $(this).index();
+      $('.team-photos').children().eq(index).show().siblings().hide()
+    });
+    
+    //当页面卷曲的时候图片动画效果
+    $(window).scroll(function () {
+      console.log(scrollY);
+      var T = scrollY;
+      if (T > $('.team-photos').offset().top) {
+        $('.team-photo li')
+         
+      }
+    })
+    
+    //当鼠标hover img那个li,图片一个放大效果
+    $('.team-photo li').mouseenter(function () {
+      $(this).css({
+        transform:'translate(0,5px)',
+      })
+    })
+    
+  })
+</script>
+
+<!-- team结束 -->
+
+
+<!--foot开始-->
+<footer>
+  <div class='footer w'>
+    <h3 class='foot-h3'>太郎花子门店</h3>
+    <div class='foot-f-name clearfix'>
+      <ul>
+        <li>苏州 景德路店</li>
+        <li>苏州 干将路店</li>
+        <li>无锡店</li>
+        <li>三亚店</li>
+      </ul>
+    </div>
+    <div class='foot-number clearfix'>
+      <ul>
+        <li>苏州市姑苏区景德路193-195号</li>
+        <li>苏州市姑苏区干将西路120号</li>
+        <li>无锡市崇安区新生路104号</li>
+        <li>三亚市小东海半山半岛二期103</li>
+      </ul>
+    </div>
+    <div class='foot-f-name clearfix'>
+      <ul>
+        <li>昆山店</li>
+        <li>常州店</li>
+        <li>泰州店</li>
+      </ul>
+    </div>
+    <div class='foot-number clearfix'>
+      <ul>
+        <li>昆山市紫竹路699号皇冠假日酒店</li>
+        <li>常熟市开元大道6号皇冠假日酒店</li>
+        <li>泰州市海陵区济川东路222号嘉华酒店</li>
+      </ul>
+    </div>
+    <h3 class='foot-h3'>太郎花子拍摄基地</h3>
+    <div class='foot-f-name clearfix'>
+      <ul>
+        <li>苏州 景德路店拍摄基地</li>
+        <li>苏州 干将路店拍摄基地</li>
+        <li>无锡 新生路店拍摄基地</li>
+      </ul>
+    </div>
+    <div class='foot-number clearfix'>
+      <ul>
+        <li>苏州市吴中区吴中大道27号</li>
+        <li>苏州市吴中区吴中大道2588号</li>
+        <li>无锡市滨湖区梁清路815号</li>
+      </ul>
+    </div>
+    <div class='dibu'>
+      <div class='d-logo fl'><img src="images/logo.png" alt=""></div>
+      <div class='d-right'>
+        <p>版权所有©2007-2017 苏州熙兢婚纱摄影有限公司，旗下品牌：TPHOTO | CSC 太郎花子婚纱摄影客户服务中心，TPHOTO | R&D 太郎花子摄</p>
+        <p>影艺术研发中心，LIGHT-YEAR 太郎花子光年 。<a href="">技术支持太郎花子网络运营中心。</a> <a href="">苏州婚纱摄影</a>， <a href="">上海婚纱摄影</a> <a
+            href="">苏ICP备16025227号-2</a></p>
+        <i><img src="images/pic.gif" alt=""></i>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- 电梯左边 -->
+<div class="fixedLeft">
+  <a href="javascript:void(0)"><img src="images/lef_1.jpg"></a>
+  <a href="javascript:void(0)"><img src="images/lef_2.jpg"></a>
+  <a href="javascript:void(0)"><img src="images/lef_3.jpg" class="qj_3"></a>
+  <a href="javascript:void(0)"><img src="images/lef_4.jpg" class="qj_4"></a>
+  <a href="javascript:void(0)"><img src="images/lef_5.jpg" class="qj_5"></a>
+</div>
+<!--右边客服-->
+<div class="qqCs">
+  <div class="closeQQ">×</div>
+  <img src="images/q2.png" alt="">
+  <ul>
+    <li><img src="images/q1.png">客服武武</li>
+    <li><img src="images/q1.png">客服韩韩</li>
+    <li><img src="images/q1.png">客服锐锐</li>
+    <li><img src="images/q1.png">客服可可</li>
+    <li><img src="images/q1.png">客服彬彬</li>
+    <li><img src="images/q1.png">客服正正</li>
+  </ul>
+</div>
+<!--footer结束-->
+</body>
+</html>

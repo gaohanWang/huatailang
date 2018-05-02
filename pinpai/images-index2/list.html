@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://yiny.tphoto.cn/form/list?s=5 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title></title>
+    <link href="./formData.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper ">
+    <form action="http://yiny.tphoto.cn/tongji/submit" method="post" target="_self">
+            <input name="sd" value="58" type="hidden">
+            <div id="formRegion">
+                <div class="form-item" id="item_name">
+                    <label class="form-label">姓名：</label>
+                    <div class="form-element">
+                        <input class="form-text" name="name" id="name" value="" type="text"><label></label><span class="item-required">*</span>
+                    </div>
+                    <div class="clear">
+                    </div>
+                </div>
+                <div class="form-item" id="item_mobile">
+                    <label class="form-label">手机：</label>
+                    <div class="form-element">
+                        <input class="form-text" name="phone" id="phone" value="" type="text"><label></label><span class="item-required">*</span>
+                    </div>
+                    <div class="clear">
+                    </div>
+                </div>
+                <div class="form-item" id="submitItem">
+                    <div class="form-element">
+                        <input type="hidden" name="mk" value="609121">
+                        <input type="hidden" name="yad" value="" id="yad">
+                        <input type="hidden" name="local" value="" id="local">
+                        <a href="http://yiny.tphoto.cn/form/list?s=5#" class="btn-submit" onclick="submitData(event);return false;" style="float: right;margin-left: 0;margin-right: 8%;
+">注册领取</a><a style="background-color: rgb(255, 255, 255);cursor: pointer;margin-right: 0%;margin-left: 20%;float: left;" href="javascript:;" class="btn-submit">放弃礼包</a><span id="tip" style="display: inline-block;height:22px;font-size:10px;color:#ff0000;position: absolute;left: 44%;bottom: 20px;"></span>
+                    </div>
+                </div>
+            </div>
+
+    </form>
+</div>
+<style type="text/css">
+.form-item{width:100%;height:auto;margin:8px 0}
+.form-item .form-label{width:20%;height:auto;font-size:18px;font-family:微软雅黑;color:#fff;font-weight:700;float:left}
+.form-item .form-element{width:80%;padding:0;margin:0;text-align:center;vertical-align:middle;float:left;line-height:25px;margin:5px 0 0}
+.form-item .form-element .form-text{width:90%;height:24px;line-height:24px;box-shadow:2px 5px 3px #ccc;border:1px solid #000;border-radius:3px;box-shadow:2px 3px 3px #cfcfcf inset;float:left}
+.form-item .form-element .item-required{margin:0 0 0 5px}
+#submitItem{width:100%;padding:0;margin:0}
+#submitItem .form-element{width:100%;height:24px;line-height:22px;text-align:left}
+#submitItem .form-element .btn-submit{display:inline-block;width:85px;height:30px;line-height:26px;margin-top:0;margin-left:20%;color:#fff;background:url(http://www.tphoto.cn/images/sub_wjh.png) no-repeat scroll center center transparent;box-shadow:3px 4px 10px #000 inset;font-size:16px;font-family:微软雅黑;font-weight:400;border-radius:5px}
+.form-item-over{border-color:transparent;background:0 0}
+body,html{overflow-x:auto;font-size:12px;height:100%}
+body{background-color:transparent}
+</style>
+<script>
+var domain = (window.location.href.split('/'))[2].split('.');domain = domain[domain.length-2]+'.'+domain[domain.length-1];document.domain = domain;
+var issubmit=false;function submitData(e){var tip=document.getElementById('tip');window.setTimeout(function(){if(tip) {tip.innerHTML = '';}}, 2500);if(issubmit){alert('您已提交过，我们将会第一时间联系您！');return false}else{var e=e||window.event;var mine=e.target||e.srcElement;var name=document.getElementById('name').value;var phone=document.getElementById('phone').value;if(name==''&&phone==''){tip.innerHTML='手机必填哦，亲';return false}if(phone!=''&&(isNaN(phone)||phone.length!=11)){tip.innerHTML='您的手机号不正确';return false}mine.innerHTML='正在提交...';mine.disabled=true;mine.style.color='#666';mine.style.border='1px solid #ccc';issubmit=true;document.getElementById('local').value=window.parent.location;document.getElementById('yad').value=(typeof getyad!='undefined'?getyad:'');document.getElementsByTagName('form')[0].submit()}}
+</script>
+
+</body></html>

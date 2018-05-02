@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main-middle.css">
+    <link rel="stylesheet" href="css/main-foot.css">
+
+
+</head>
+<body>
+<div class="main-middle">
+    <div class="main-w-m">
+        <div class="weekly-photos">
+            <img src="images/weeklyphoto.png" alt="">
+            <div class="weekly-box">
+                <div class="one"><img src="images/pic1.jpg" alt=""></div>
+                <div class="two"><img src="images/pic2.jpg" alt=""></div>
+                <div class="three"><img src="images/pic3.jpg" alt=""></div>
+                <div class="exp1">
+                    <div class="exp-one fl">
+                        <p>August SEASON 5</p>
+                        <span>八月第五季</span>
+                    </div>
+                    <div class="exp-two fl">
+                        <p>August SEASON 4</p>
+                        <span>八月第四季</span>
+                    </div>
+                    <div class="exp-three fl">
+                        <p>August SEASON 3</p>
+                        <span>八月第三季</span>
+                    </div>
+                </div>
+                <div class="four"><img src="images/pic4.jpg" alt=""></div>
+                <div class="five"><img src="images/pic5.jpg" alt=""></div>
+                <div class="six"><img src="images/pic6.jpg" alt=""></div>
+                <div class="exp2">
+                    <div class="exp-four fl">
+                        <p>August SEASON 2</p>
+                        <span>八月第二季</span>
+                    </div>
+                    <div class="exp-five fl">
+                        <p>August SEASON 1</p>
+                        <span>八月第一季</span>
+                    </div>
+                    <div class="exp-six fl">
+                        <p>July SEASON 4</p>
+                        <span>七月第四季</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="daily-photos">
+            <img src="images/daily.png" alt="">
+            <div class="daily-box">
+                <div class="daily-one fl">
+                    <img src="images/pic7.jpg" alt="">
+                </div>
+                <div class="daily-two fl">
+                    <img src="images/pic8.jpg" alt="">
+                </div>
+                <div class="daily-three fl">
+                    <img src="images/pic9.jpg" alt="">
+                </div>
+                <div class="daily-four fl">
+                    <img src="images/pic10.jpg" alt="">
+                </div>
+                <div class="daily-exp">
+                    <div class="daily-exp1 fl">
+                        <p>September 1.2017</p>
+                    </div>
+                    <div class="daily-exp2 fl">
+                        <p>August 31.2017</p>
+                    </div>
+                    <div class="daily-exp3 fl">
+                        <p>August 30.2017</p>
+                    </div>
+                    <div class="daily-exp4 fl">
+                        <p>August 29.2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-us clearfix">
+            <img src="images/aboutus.png" alt="">
+            <div class="about-one fl">
+                <div class="ab-one-top">
+                    <img src="images/pic11.jpg" alt="">
+                </div>
+                <div class="ab-one-bottom"></div>
+            </div>
+            <div class="about-two fl">
+                <div class="ab-two-top">
+                    <img src="images/pic12.jpg" alt="">
+                </div>
+                <div class="ab-two-bottom"></div>
+            </div>
+            <div class="about-three fl">
+                <div class="ab-three-top">
+                    <img src="images/pic13.jpg" alt="">
+                </div>
+                <div class="ab-three-bottom"></div>
+            </div>
+            <span class="base1"></span>
+            <span class="base2"></span>
+            <span class="base3"></span>
+        </div>
+        <div class="customer-views">
+            <img src="images/customer.png" alt="">
+            <div class="cus-one fl">
+                <div class="one-s6">
+                    <div class="weibo-content1">
+                        <img src="images/weibocon.png" alt="">
+                    </div>
+                </div>
+                <p>WEIBO</p>
+                <span>看看拍过的亲们怎么说？</span>
+
+            </div>
+            <div class="cus-two fl">
+                <div class="two-s6">
+                    <div class="weibo-content2">
+                        <img src="images/weibocon2.png" alt="">
+                    </div>
+                </div>
+                <p>DIAN PING</p>
+                <span>看看拍过的亲们怎么说？</span>
+            </div>
+            <div class="cus-three fl">
+                <div class="three-s6">
+                    <div class="weibo-content3">
+                        <img src="images/weibocon3.png" alt="">
+                    </div>
+                </div>
+                <p>SAN YA DIAN PING</p>
+                <span>看看三亚拍过的亲们怎么说？</span>
+            </div>
+
+        </div>
+        <div class="microfilm">
+            <img src="images/microfilm.png" alt="">
+            <div class="lunbo">
+                <div class="slider">
+                    <ul>
+                        <li><a href="#"><img src="images/lunbo1.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/lunbo2.png" alt=""></a></li>
+                    </ul>
+                    <!--箭头-->
+                    <div class="arrow">
+                        <span class="arrow-left">&lt;</span>
+                        <span class="arrow-right">&gt;</span>
+                    </div>
+                </div>
+                <script src="jquery-1.12.4.js"></script>
+                <script>
+                    $(function () {
+                        var count=0;
+                        $(".arrow-right").click(function () {
+                            count++;
+                            if(count==$(".slider li").length){
+                                count=0;
+                            }
+                            $(".slider li").eq(count).stop().fadeIn().siblings("li").fadeOut();
+
+                        });
+                        $(".arrow-left").click(function () {
+                            count--;
+                            if (count==-1){
+                                count=$(".slider li").length-1;
+                            }
+                            $(".slider li").eq(count).stop().fadeIn().siblings("li").fadeOut();
+                        })
+                    })
+                </script>
+
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div class="main-foot">
+    <div class="main-w">
+        <ul class="end-heightone"><div></div>&nbsp;&nbsp;太郎花子门店</ul>
+        <div class="end-heighttwo clearfix">
+            <ul>
+                <li><a href="#">苏州&nbsp;景德路店</a></li>
+                <li><a href="#">苏州&nbsp;干将路店</a></li>
+                <li><a href="#">无锡店</a></li>
+                <li><a href="#">三亚店</a></li>
+            </ul>
+        </div>
+        <div class="end-heightthree clearfix">
+            <ul>
+                <li><a href="#">苏州市姑苏区景德路193-195号</a></li>
+                <li><a href="#">苏州市姑苏区干将西路120号</a></li>
+                <li><a href="#">无锡市崇安区新生路104号</a></li>
+                <li><a href="#">三亚市小东海半山半岛二期103</a></li>
+            </ul>
+        </div>
+        <div class="end-heightfour clearfix">
+            <ul>
+                <li><a href="#">昆山店</a></li>
+                <li><a href="#">常熟店</a></li>
+                <li><a href="#">泰州店</a></li>
+            </ul>
+        </div>
+        <div class="end-heightfive clearfix">
+            <ul>
+                <li><a href="#">昆山市紫竹路699号皇冠假日酒店</a></li>
+                <li><a href="#">常熟市开元大道6号皇冠假日酒店</a></li>
+                <li><a href="#">泰州市海陵区济川东路222号嘉华酒店</a></li>
+            </ul>
+        </div>
+        <ul class="end-heightsix"><div></div>&nbsp;&nbsp;太郎花子拍摄基地</ul>
+        <div class="end-heightseven clearfix">
+            <ul>
+                <li><a href="#">苏州 景德路店拍摄基地</a></li>
+                <li><a href="#">苏州 干将路店拍摄基地</a></li>
+                <li><a href="#">无锡 新生路店拍摄基地</a></li>
+            </ul>
+        </div>
+        <div class="end-heighteight clearfix">
+            <ul>
+                <li><a href="#">苏州市吴中区吴中大道27号</a></li>
+                <li><a href="#">苏州市吴中区吴中大道2588号</a></li>
+                <li><a href="#">无锡市滨湖区梁清路815号</a</li>
+            </ul>
+        </div>
+
+
+        <div class="end-banner">
+            <div class="left-img fl"><img src="images/logob.png" alt=""></div>
+            <div class="aboutbanquan fl">
+                <span>版权所有©2007-2017 苏州熙兢婚纱摄影有限公司，旗下品牌：TPHOTO | CSC 太郎花子婚纱摄影客户服务中心，TPHOTO | R&D 太郎花子摄影艺术研发中心，LIGHT-YEAR 太郎花子光年 。技术支持太郎花子网络运营中心。 苏州婚纱摄影， 上海婚纱摄影 苏ICP备16025227号-2</span>
+                <img src="images/pic-small.gif" alt="">
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

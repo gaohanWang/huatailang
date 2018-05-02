@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfixed:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.w {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+/*初始化样式*/
+
+#sw-header {
+  height: 130px;
+  background-color: #c9161c;
+  padding-left: 100px;
+  margin: 0 auto;
+  padding-top: 36px;
+  box-sizing: border-box;
+  padding-right: 100px;
+  min-width: 1349px;
+}
+
+#sw-header #sw-logo {
+  background: url("images/logo.png ") no-repeat;
+  height: 58px;
+  width: 178px;
+  background-size: 100%;
+  margin-right: 50px;
+}
+
+#sw-logo h1 {
+  text-indent: -999px;
+}
+
+#sw-header ul {
+  float: left;
+}
+
+#sw-header ul li span {
+  display: block;
+  margin-left: 10px;
+  color: white;
+}
+
+#sw-header ul li {
+  float: left;
+  font-size: 12px;
+  font-weight: 700;
+  color: #f4b408;
+  margin-left: 10px;
+  margin-top: 24px;
+}
+
+#sw-header ul li a {
+  color: #f4b408;;
+}
+
+#sw-header s {
+  width: 1px;
+  height: 58px;
+  background-color: white;
+  float: left;
+}
+
+/*header部分结束，下面是nav部分*/
+#sw-nav {
+  height: 42px;
+  background: black;
+  min-width: 1349px;
+}
+
+#sw-nav ul {
+  margin: 0 auto;
+
+}
+
+#sw-nav ul li {
+  float: left;
+  line-height: 42px;
+  margin-right: 60px;
+}
+#sw-nav ul li a:hover{
+  color: orange;
+}
+#sw-nav ul a {
+  font-size: 16px;
+  color: white;
+}
+
+#sw-nav ul span {
+  font-size: 13px;
+}
+
+/*nav结束，下面是body的文字部分废话连篇*/
+#sw-body-font {
+  height: 480px;
+  margin: 0 auto;
+  border-top: 1px solid transparent;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#sw-body-font p:first-child {
+  font-size: 98px;
+  width: 888px;
+  height: 100px;
+  line-height: 100px;
+  margin: 140px auto 10px;
+  font-weight: 700;
+  color: #c9161c;
+}
+
+#sw-body-font p:nth-of-type(2) {
+  background-color: #ffd048;
+  width: 400px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+}
+
+#sw-body-font p:nth-of-type(2) span {
+  font-weight: 700;
+}
+
+b {
+  font-weight: 400;
+}
+
+/*乱七八糟的无聊文字写好，接下来是导航栏*/
+#sw-body-DHL {
+  height: 333px;
+  /*background-color: skyblue;*/
+  margin:0 auto;
+  margin-bottom: 10px;
+}
+/*导航栏还没写，我希望是更好的特效完成他*/
+#sw-body-DHL ul li{
+  float: left;
+  width: 150px;
+  height: 90px;
+  padding-top: 30px;
+  border-top: 1px solid #ccc;
+  border-right:1px solid #ccc;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  position: relative;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#sw-body-DHL li:first-child{
+  background-color: pink;
+  font-size: 26px;
+}
+
+#sw-body-DHL ul li:last-of-type{
+  border-right: none;
+}
+#qbt{
+  position: absolute;
+  top: 403px;
+  left: 106px;
+  height: 200px;
+  opacity: 1;
+}
+/*下面写的是整个页面最好看的图片*/
+#sw-body-img img{
+  display: block;
+  border:0;
+  margin: 0 auto;
+}
+#sw-body-img #sw-mostbuti{
+  min-width: 1349px;
+  max-width: 100%;
+}
+#sw-body-img div{
+  height: 100px;
+  text-align: center;
+  background-color:  #e26c6c;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+#sw-body-img div span{
+  display: block;
+  width: 40px;
+  height: 5px;
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+/*无聊的内容已经结束。我们开始最重要的分布图*/
+
+#sw-content ul{
+  margin: 0 auto;
+  width: 1038px;
+}
+#sw-content li{
+  height: 500px;
+  width: 252px;
+  float: left;
+  margin-top: 80px ;
+  position: relative;
+  cursor: pointer;
+}
+/*特效需要的属性*/
+#sw-content s{
+  text-align: center;
+  font-size: 20px;
+  color: purple;
+  line-height:382px;
+  display:none;
+  z-index: 999;
+  height: 382px;
+  width: 252px;
+  background-color: rgba(255,192,203,.7);
+  position: absolute;
+}
+ i{
+   font-size: 30px;
+ }
+#sw-content ul li:first-child{
+  margin-right: 10px;
+}
+#sw-content  ul li:nth-child(2){
+  margin-right: 10px;
+}
+#sw-content  ul li:nth-child(3){
+  margin-right: 10px;
+}
+/*设置li标签里的文字*/
+#sw-content li .name span{
+  display: block;
+}
+#sw-content li .name span:first-of-type{
+  color: #656565;
+  font-size: 14px;
+}
+#sw-content li .name span:nth-of-type(2){
+  font-size: 21px;
+}
+#sw-content li .sec span{
+
+}
+/*//找到iconfont字体*/
+
+#sw-content li .sec span:first-of-type{
+
+  padding-left: 35px;
+  width: 65px;
+  height: 40px;
+  position: absolute;
+  right:0;
+  text-align: right;
+}
+#sw-content li .sec span:nth-of-type(2){
+  font-size: 12px;
+  color: #656565;
+  position: absolute;
+  right:0;
+  top:400px;
+  width: 160px;
+  text-align: right;
+}
+#sw-content li .watch{
+  position: absolute;
+  width: 248px;
+  height: 46px;
+  background-color: #0081dc;
+  bottom: 0;
+  line-height: 46px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+/*哈哈，H5基本完毕，现在写翻页栏*/
+.sw-page{
+  height: 60px;
+  background-color: #3f674c;
+  margin-top: 80px;
+  position: relative;
+  min-width: 1349px;
+  padding-top: 10px;
+}
+.sw-page ul{
+position: absolute;
+  left:50%;
+  margin-left: -217.5px;
+}
+.sw-page ul li{
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  float: left;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.sw-page ul li:nth-child(2){
+  background-color: #1a1a1a;
+}
+.sw-page ul .sw-bigPage{
+  width: 80px;
+}

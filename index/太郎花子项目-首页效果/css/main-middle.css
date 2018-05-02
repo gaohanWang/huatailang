@@ -1,0 +1,619 @@
+﻿.main-w-m {
+    width: 1023px;
+    margin: 0 auto;
+}
+.weekly-box{
+    width: 100%;
+    height: 600px;
+    
+}
+.weekly-box>div{
+    float: left;
+}
+.weekly-box .one{
+    width: 336px;
+    height: 225px;
+    overflow: hidden;
+    margin-right:7px;
+}
+.weekly-box .one img{
+    transition: all 1s;
+}
+.weekly-box .one img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.weekly-box .two{
+    width: 336px;
+    height: 225px;
+    overflow: hidden;
+    margin-right:7px;
+}
+.weekly-box .two img{
+    transition: all 1s;
+}
+.weekly-box .two img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.weekly-box .three{
+     width: 336px;
+     height: 225px;
+    overflow: hidden;
+ }
+
+
+.weekly-box .three img{
+    transition: all 1s;
+}
+.weekly-box .three img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.weekly-box .exp1{
+    width: 1023px;
+    height: 70px;
+
+}
+.weekly-box .exp1 .exp-one{
+    width: 336px;
+    height: 70px;
+    margin-right:7px;
+}
+
+
+.weekly-box .exp1 .exp-two{
+    width: 336px;
+    height: 70px;
+    margin-right:7px;
+}
+.weekly-box .exp1 .exp-three{
+    width: 336px;
+    height: 70px;
+}
+
+
+.weekly-box .exp1 .exp-one p {
+    font-weight: 100;
+    font-size: 15px;
+    margin:10px 100px;
+}
+.weekly-box .exp1 .exp-one span{
+    font-size: 14px;
+    color: #001;
+    margin:120px;
+}
+
+
+.weekly-box .exp1 .exp-two p {
+    font-weight: 100;
+    font-size: 15px;
+    margin:10px 100px;
+}
+.weekly-box .exp1 .exp-two span{
+    font-size: 14px;
+    color: #001;
+    margin:120px;
+}
+
+
+.weekly-box .exp1 .exp-three p {
+    font-weight: 100;
+    font-size: 15px;
+    margin:10px 100px;
+}
+.weekly-box .exp1 .exp-three span{
+    font-size: 14px;
+    color: #001;
+    margin:120px;
+}
+
+.weekly-box .exp2 .exp-four p {
+    font-weight: 100;
+    font-size: 15px;
+    margin:10px 100px;
+}
+.weekly-box .exp2 .exp-four span{
+    font-size: 14px;
+    color: #001;
+    margin:120px;
+}
+
+.weekly-box .exp2 .exp-five p {
+    font-weight: 100;
+    font-size: 15px;
+    margin:10px 100px;
+}
+.weekly-box .exp2 .exp-five span{
+    font-size: 14px;
+    color: #001;
+    margin:120px;
+}
+.weekly-box .exp2 .exp-six p {
+    font-weight: 100;
+    font-size: 15px;
+    margin:10px 100px;
+}
+.weekly-box .exp2 .exp-six span{
+    font-size: 14px;
+    color: #001;
+    margin:120px;
+}
+
+
+.weekly-box .exp2{
+    width: 1023px;
+    height: 70px;
+
+}
+
+
+.weekly-box .exp2 .exp-three{
+    width: 336px;
+    height: 70px;
+    margin-right:7px;
+}
+.weekly-box .exp2 .exp-four{
+    width: 336px;
+    height: 70px;
+    margin-right:7px;
+}
+.weekly-box .exp2 .exp-five{
+    width: 336px;
+    height: 70px;
+}
+
+
+.weekly-box .four{
+    width: 336px;
+    height: 225px;
+    overflow: hidden;
+    margin-right:7px;
+}
+
+.weekly-box .four img{
+    transition: all 1s;
+}
+.weekly-box .four img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.weekly-box .five{
+    width: 336px;
+    height: 225px;
+    overflow: hidden;
+    margin-right:7px;
+}
+
+.weekly-box .five img{
+    transition: all 1s;
+}
+.weekly-box .five img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.weekly-box .six{
+    width: 336px;
+    height: 225px;
+    overflow: hidden;
+}
+.weekly-box .six img{
+    transition: all 1s;
+}
+.weekly-box .six img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
+
+.daily-box{
+    width: 1021px;
+    height: 373px;
+}
+.daily-box .daily-one{
+    width: 248px;
+    height: 350px;
+    margin-right:8px;
+    overflow: hidden;
+}
+
+.daily-box .daily-one img{
+    transition: all 1s;
+}
+.daily-box .daily-one img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+
+.daily-box .daily-two{
+    width: 248px;
+    height: 350px;
+    margin-right:8px;
+    overflow: hidden;
+}
+.daily-box .daily-two img{
+    transition: all 1s;
+}
+.daily-box .daily-two img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.daily-box .daily-three{
+    width: 248px;
+    height: 350px;
+    margin-right:8px;
+    overflow: hidden;
+}
+.daily-box .daily-three img{
+    transition: all 1s;
+}
+.daily-box .daily-three img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+.daily-box .daily-four{
+    width: 248px;
+    height: 350px;
+    overflow: hidden;
+}
+.daily-box .daily-four img{
+    transition: all 1s;
+}
+.daily-box .daily-four img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.daily-exp{
+    width: 1021px;
+    height: 23px;
+}
+
+
+.daily-exp .daily-exp1{
+    width: 248px;
+    height: 22px;
+    background-color: #b40001;
+    margin-right:8px;
+}
+.daily-exp .daily-exp1 p{
+    color: #fff;
+    margin-left: 10px;
+}
+.daily-exp .daily-exp2{
+    width: 248px;
+    height: 22px;
+    background-color: #b40001;
+    margin-right:8px;
+}
+.daily-exp .daily-exp2 p{
+    color: #fff;
+    margin-left: 10px;
+}
+.daily-exp .daily-exp3{
+    width: 248px;
+    height: 22px;
+    background-color: #b40001;
+    margin-right:8px;
+}
+.daily-exp .daily-exp3 p{
+    color: #fff;
+    margin-left: 10px;
+}
+.daily-exp .daily-exp4{
+    width: 248px;
+    height: 22px;
+    background-color: #b40001;
+
+}
+.daily-exp .daily-exp4 p{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.about-us{
+    width: 1020px;
+    height: 1000px;
+    position: relative;
+}
+
+
+.about-us .about-one{
+    width: 333px;
+    height: 610px;
+    margin-right:10px;
+
+}
+.about-us .about-two{
+    width: 333px;
+    height: 610px;
+    margin-right:10px;
+}
+.about-us .about-three{
+    width: 333px;
+    height: 610px;
+
+}
+
+.about-us .about-one .ab-one-top{
+    width: 333px;
+    height: 226px;
+    overflow: hidden;
+
+}
+.about-us .about-one .ab-one-bottom{
+    width: 333px;
+    height: 384px;
+    background-color: #dc504f;
+}
+
+.about-us .base1{
+    width: 333px;
+    height: 500px;
+    position: absolute;
+    left: -15px;
+    top:490px;
+    background: url("../images/about1.png") no-repeat;
+    cursor: pointer;
+
+}
+
+.about-us .base2{
+    width: 333px;
+    height: 500px;
+    position: absolute;
+    left: 332px;
+    top:490px;
+    background: url("../images/about2.png") no-repeat;
+    cursor: pointer;
+
+}
+.about-us .base3{
+    width: 333px;
+    height: 500px;
+    position: absolute;
+    left: 740px;
+    top:490px;
+    background: url("../images/about3.png") no-repeat;
+    cursor: pointer;
+
+}
+
+.about-us .about-two .ab-two-top{
+    width: 333px;
+    height: 226px;
+    overflow: hidden;
+
+}
+.about-us .about-two .ab-two-bottom{
+    width: 333px;
+    height: 384px;
+    background-color: #dc504f;
+
+}
+
+.about-us .about-three .ab-three-top{
+    width: 333px;
+    height: 226px;
+    overflow: hidden;
+
+}
+.about-us .about-three .ab-three-bottom{
+    width: 333px;
+    height: 384px;
+    background-color: #dc504f;
+
+}
+
+.customer-views{
+    width: 1020px;
+    height:1000px;
+    position: relative;
+}
+.customer-views .cus-one,.customer-views .cus-two{
+    width: 330px;
+    height: 800px;
+    background-color: #dc504f;
+    margin-right: 14px;
+}
+ .cus-one p{
+    color: #ffffff;
+    font-size:20px;
+     margin-left: 130px;
+     margin-top:40px;
+     margin-bottom: 10px;;
+}
+.cus-one span{
+    color: #ffffff;
+    font-size:12px;
+    margin-left:100px;
+}
+.customer-views .cus-three{
+    width: 330px;
+    height: 800px;
+    background-color: #dc504f;
+}
+.one-s6{
+    width: 330px;
+    height: 700px;
+    background: url("../images/6s.png") no-repeat top center;
+    position: relative;
+    cursor: pointer;
+}
+.two-s6{
+    width: 330px;
+    height: 700px;
+    background: url("../images/6s.png") no-repeat top center;
+    position: relative;
+    cursor: pointer;
+}
+.three-s6{
+    width: 330px;
+    height: 700px;
+    background: url("../images/6s.png") no-repeat top center;
+    position: relative;
+    cursor: pointer;
+}
+
+.cus-two p{
+    color: #ffffff;
+    font-size:20px;
+    margin-left: 115px;
+    margin-top:40px;
+    margin-bottom: 10px;;
+}
+.cus-two span{
+    color: #ffffff;
+    font-size:12px;
+    margin-left:106px;
+}
+
+.cus-three p{
+    color: #ffffff;
+    font-size:20px;
+    margin-left: 71px;
+    margin-top:40px;
+    margin-bottom: 10px;;
+}
+.cus-three span{
+    color: #ffffff;
+    font-size:12px;
+    margin-left:94px;
+}
+
+
+.one-s6 .weibo-content1{
+    width: 300px;
+    height: 530px;
+    position: absolute;
+    left: 15px;
+    top: 85px;
+    overflow: auto;
+}
+
+.one-s6 .weibo-content1 img{
+    width: 285px;
+}
+.two-s6 .weibo-content2{
+    width: 300px;
+    height: 530px;
+    position: absolute;
+    left: 15px;
+    top: 85px;
+    overflow: auto;
+}
+
+.two-s6 .weibo-content2 img{
+    width: 285px;
+}
+
+.three-s6 .weibo-content3{
+    width: 300px;
+    height: 530px;
+    position: absolute;
+    left: 15px;
+    top: 85px;
+    overflow: auto;
+}
+
+.three-s6 .weibo-content3 img{
+    width: 285px;
+}
+
+.microfilm{
+    margin-top:200px;
+}
+
+.slider img{
+   margin-left: 30px;
+}
+
+
+
+
+
+.slider {
+    height: 246px;
+    width: 1047px;
+    margin-top:30px;
+    position: relative;
+}
+
+.slider li {
+    position: absolute;
+    display: none;
+}
+
+.slider li:first-child {
+    display: block;
+}
+
+
+.arrow {
+    /*display: none;*/
+}
+
+.slider:hover .arrow {
+    display: block;
+}
+
+.arrow-left{
+    font-family: "SimSun", "宋体";
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top:96px;
+    margin-top: -30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.arrow-right {
+    font-family: "SimSun", "宋体";
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top:70px;
+    left: 993px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}

@@ -1,0 +1,175 @@
+ /*通用样式*/
+*{
+  margin: 0;
+  padding: 0;
+}
+.w{
+  width: 1120px;
+  margin:0 auto;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+input{
+  border: none;
+  outline: none;
+}
+
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+/*header开始*/
+ header{
+   background-color: #c9161c;
+ }
+ .head{
+   height: 150px;
+ }
+ .head .logo{
+   width: 178px;
+   height: 58px;
+   /*background-color:green;*/
+   margin-top: 55px;
+   background-image: url(images/logo.png);
+ }
+ .f-name .space{
+   height: 55px;
+   margin-top: 55px;
+   border-left:1px solid white;
+ }
+ .f-name li{
+   float: left;
+   margin-top: 72px;
+   margin-left: 20px;
+   font-size: 12px;
+   font-weight: 500;
+ }
+ .f-name li i{
+   background: url(images/icon.png.png) no-repeat -221px 3px;
+   display: block;
+   width: 20px;
+   height: 20px;
+   margin-left: 5px;
+   border-radius: 13px;
+   border: 1px solid white;
+ }
+ .f-name li a{
+   color: #fed803;
+ }
+ 
+ nav{
+   background-color: black;
+   position: relative;
+ }
+ .nav{
+   height: 63px;
+   line-height: 63px;
+ }
+ nav .nav li{
+   margin-right: 48px;
+   float: left;
+ }
+
+ .nav li span{
+   font-size: 14px;
+ }
+ .nav li a{
+   font-size: 20px;
+   font-weight:500;
+   color: #fff;
+ }
+ .nav li a:hover{
+   color: #fed803;
+ }
+ nav .xiabiao{
+    width: 100px;
+    position: absolute;
+    top: 60px;
+    left: 248px;
+    box-sizing: border-box;
+    background-color: black;
+    text-align: -webkit-center;
+    display: none;
+ }
+
+nav .xiabiao a{
+    display: block;
+    width: 99px;
+    height: 50px;
+    text-align: center;
+    line-height: 47px;
+    color: white;
+}
+nav .xiabiao a:hover{
+  background-color: red;
+}
+
+
+/*header结束*/
+ /*content开始*/
+ .about img{
+   min-width: 1349px;
+   max-width: 100%;
+   display: block;
+ }
+ .about img:last-child{
+   cursor: pointer;
+ }
+ .about{
+   margin:0 auto ;
+ }
+ /*content结束*/
+ /*foot开始*/
+ footer{
+   margin-top: 30px;
+   background-color: black;
+   height: 665px;
+   color: #fff;
+ }
+ .foot-h3{
+   display:inline-block;
+   margin-top:80px;
+   border-left: 6px solid  #dd4f4d;
+ }
+ footer ul{
+   flex: 1;
+   font-size: 14px;
+ }
+ footer li{
+   float: left;
+   width:25%;
+   margin-top: 20px;
+ }
+.foot-f-name li{
+  color: #a4434b;
+}
+.dibu{
+  margin-top: 115px;
+  font-size: 14px;
+  color: #999;
+}
+ .dibu .d-right{
+   padding-top: 20px;
+   position: relative;
+ }
+ .dibu .d-right i{
+   position: absolute;
+   top:55px;
+   left:175px;
+ }
+ .dibu .d-right a{
+   color: #999;
+ }
+ /*foot结束*/
+ 
